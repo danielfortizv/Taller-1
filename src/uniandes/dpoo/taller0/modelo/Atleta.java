@@ -10,7 +10,9 @@ import java.util.Set;
 /** Buenas tardes :p
  * Esta clase encapsula la información sobre los atletas y calcula algunas cosas
  * sobre sus resultados.
+ * cambio numero tres
  */
+
 public class Atleta
 {
 	// ************************************************************************
