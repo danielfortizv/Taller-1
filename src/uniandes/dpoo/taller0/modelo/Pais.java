@@ -46,6 +46,10 @@ public class Pais
 	// Métodos para consultar los atributos
 	// ************************************************************************
 
+	
+	public String toString() {
+        return nombre;
+    }
 	/**
 	 * Consulta el nombre del país
 	 * 
