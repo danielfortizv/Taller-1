@@ -393,6 +393,23 @@ public class CalculadoraEstadisticas
 		}
 		return cantidadMedallistas / cantidadAtletas;
 	}
+	
+	/**
+	 * 
+	 * @param nombreAtleta El nombre del atleta
+	 * @return El pais de origen del atleta
+	 */
+	public Pais buscarAtletaPorPais(String nombreAtleta)
+	{
+		Pais resultado = null;
+		Atleta elAtleta = buscarAtleta(nombreAtleta);
+		if (elAtleta != null)
+		{
+			resultado = elAtleta.darPais();
+		}
+		return resultado;
+	}
+	
 
 	/**
 	 * Retorna el país con el nombre indicado
